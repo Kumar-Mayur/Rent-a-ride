@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rentaride</title>
+  <link rel="icon" href="ride.ico">
+  <link rel="stylesheet" href="CSS/style.css">
+  <style media="screen">
+    body {
+      background-color: rgb(221 255 234);
+    }
+    .Month-btn:hover{
+    background-image: -webkit-linear-gradient(top, #97DEDC, #1ED03B);
+    }
+    .Daily-btn{
+    background-image: -webkit-linear-gradient(top, #97DEDC, #1ED03B);
+  }
+  </style>
+</head>
+
+<body>
+  <section id="navBar">
+    <div class="container">
+
+      <div class="logo">
+        <a href="home.html"><img src="renetaride-logo.jpg" alt="logo"></a>
+      </div>
+      <div class="topMenu">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="bike.html">Bike Rent</a></li>
+          <li><a href="car.html">Car Rent</a></li>
+          <li><a href="signup.html">Sign up</a></li>
+          <li><a href="login.html">Log in</a></li>
+        </ul>
+      </div>
+      <div class="cls"></div>
+    </div>
+  </section>
+
+  <section id="Daily-payment">
+
+    <div class="container">
+
+
+      <div class="Daily-container">
+        <ul>
+          <li> <a href=""><input class="Daily-btn" type="button" name="Daily" value="Daily"></a> </li>
+          <li> <a href=""><input class="Month-btn" type="button" name="Daily" value="Monthly"></a> </li>
+        </ul>
+        <h1>Rentals</h1>
+        <p>Self Drive car rental in India</p>
+        <h3>City</h3>
+
+        <div class="Daily-citylist">
+          <label><img src="location.png" alt="logo" width="5%"></label>
+          <select class="Daily-cityName" name="City-name">
+            <option value=" ">Select City</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Delhi">New Delhi</option>
+            <option value="Mumbai ">Mumbai </option>
+            <option value="Pune">Pune</option>
+            <option value="Patna">Patna</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Hyderabad ">Hyderabad </option>
+            <option value=" Chandigarh">Chandigarh</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Bhubaneswar">Bhubaneswar</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+            <option value="Indore ">Indore</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Ludhiana">Ludhiana</option>
+            <option value="Mysore ">Mysore</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+            <option value="Nagpur">Nagpur</option>
+            <option value="Kochi">Kochi</option>
+            <option value="Udaipur ">Udaipur</option>
+            <option value="Surat">Surat</option>
+            <option value="Lucknow">Lucknow</option>
+            <option value="Guwahati">Guwahati</option>
+
+
+          </select>
+
+        </div>
+
+           <div class="daily-date">
+             <label><img src="calenderIcon.png" alt="" width="9%"></label>
+             <input class="StartDate"type="date" name="start Date" value="start Date">
+             <input class="EndDate"type="date" name="End Date" value="End Date">
+           </div>
+
+           <a href="car.html">
+             <input class="DailySearch"type="button" name="Search" value="Search">
+           </a>
+
+      </div>
+
+      <div class="Daily-Image">
+
+      </div>
+
+
+      <div class="cls"></div>
+    </div>
+
+  </section>
+
+</body>

@@ -1,0 +1,1015 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CF0000;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+/*************************** Start of navBar ***************************/
+.cls {
+  clear: both;
+  line-height: 1px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+#navBar {
+  background: black;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left
+}
+
+.topMenu {
+  float: right;
+}
+
+.topMenu ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.topMenu ul li {
+  display: inline-block;
+}
+
+.topMenu ul li a {
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.topMenu ul li a:hover {
+  color: #CF0000;
+}
+
+/*************************** end of navBar ***************************/
+/*************************** Start of Image ***************************/
+#Image {
+  background: url(..//front.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  margin-bottom: 30px;
+}
+
+.Imagetxt {
+  padding-top: 50px;
+}
+
+.Imagetxt h2 {
+  color: white;
+  margin: 20px auto;
+  font-size: 25px;
+}
+
+.Imagetxt h1 {
+  color: white;
+  margin: 15px auto;
+  font-size: 30px;
+}
+
+.Imagetxt p {
+  color: white;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.joinBtn {
+  background-image: -webkit-linear-gradient(top, #3DF68C, #0F3AC5);
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  color: #ffffff;
+}
+
+/*************************** End of Image ***************************/
+/*************************** WhyRentaride ***************************/
+.WhyRentarideTxtwrp {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.subTitle {
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.BoxWrp {}
+
+.box {
+  float: left;
+  width: 23%;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+/*************************** End of WhyRentaride ***************************/
+/*************************** how it works ***************************/
+.WorkTxtwrp {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.WorkTxtwrp hr {
+  border: dotted #78DEC7;
+  border-bottom: none;
+  width: 6%;
+  margin: 20px auto;
+}
+
+.worktitle {
+  font-size: 30px;
+  text-align: center;
+  margin: 25px auto;
+}
+
+.BoxImageWrp {}
+
+.boxImage {
+  float: left;
+  width: 23%;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-left: 3px;
+}
+
+/*************************** End of how it works ***************************/
+/*************************** start service in city ***************************/
+#service-city {
+  background: #787A91;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.city-list ul li {
+  cursor: pointer;
+}
+
+.city-list ul li:hover {
+  color: #9EDE73;
+}
+
+.service-title h1 {
+  font-size: 40px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.citylist {
+  float: left;
+  width: 27%;
+  text-align: left;
+  font-size: 16px;
+  padding: 5px;
+  margin-left: 60px;
+  margin-bottom: 2px;
+  list-style: none;
+  color: #ffffff;
+}
+
+/*************************** End of Services ***************************/
+/*************************** start Ariport Services ***************************/
+#Airport-service {
+  background: #787A91;
+  width: 100%;
+  margin: 0 auto;
+  height: 300px;
+}
+
+.city-txt ul li {
+  cursor: pointer;
+}
+
+.city-txt ul li:hover {
+  color: #9EDE73;
+}
+
+.Airport-title {
+  font-size: 20px;
+  color: white;
+  padding-top: 40px;
+  text-align: center
+}
+
+.citytxt {
+  float: left;
+  width: 27%;
+  text-align: left;
+  font-size: 16px;
+  padding: 5px;
+  margin-left: 60px;
+  margin-bottom: 2px;
+  list-style: none;
+  color: #ffffff;
+}
+
+/*************************** End of Ariport Services ***************************/
+/*************************** start in footer ***************************/
+#footer {
+  background: #2c394b;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.copyrighttitle {
+  color: white;
+  padding-top: 20px;
+}
+
+.copyrighttitle p {
+  font-size: 25px;
+  font-weight: 100;
+  margin-left: 30px;
+}
+
+.copyright-question {
+  float: right;
+  color: white;
+  padding-top: 20px;
+  line-height: 45px;
+}
+
+.copyright-question p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.copyright-question h1 {
+  font-size: 30px;
+  font-weight: 150;
+}
+
+.copyright-Image {
+  float: left;
+}
+
+.copyright-Image ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.copyright-Image ul li {
+  display: inline;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.copyright-Image ul li img {
+  border-radius: 50%;
+}
+
+.copyrighttitle h3 {
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+
+/*************************** End of footer ***************************/
+/*************************** start copyright text ***************************/
+#copyright {
+  background: #2c394b;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.copyright-contact {
+  margin-bottom: 20px;
+  padding: 0px;
+  float: right;
+}
+
+.copyright-contact a {
+  font-size: 25px;
+  color: white;
+  margin-right: 80px;
+}
+
+.copyright-contact a:hover {
+  color: #CF0000;
+}
+
+.copyright-txt {
+  color: white;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+/**************** End of Index & home page ********************/
+/**************** Start in Bike Page ***********************/
+#bikeimage {
+  background: url(../bike_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  margin-bottom: 50px;
+}
+
+.bikeImagetxt {}
+
+.bikeImagetxt p {
+  font-style: italic;
+  font-size: 30px;
+  margin: 0px;
+  padding: 30px;
+  color: #B5EAEA;
+  float: right;
+  line-height: 35px;
+}
+
+.bikeImagetxt h2 {
+  color: white;
+  padding: 10px;
+  margin: 0px;
+}
+
+.BikeImageBox {
+  margin: 0px;
+  padding: 0px;
+}
+
+#bike-container {}
+
+.Bike-box {
+  float: left;
+  width: 32%;
+  text-align: center;
+  font-size: 14px;
+  border: white 1px solid;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.Bike-box h1 {
+  color: black
+}
+
+.BikeImageBox a {
+  color: green;
+}
+
+.BikeImageBox a:hover {
+  color: red;
+}
+
+/**************** End of Bike Page ***********************/
+/**************** Start in Car Page ***********************/
+#carImage {
+  background: url(../car_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  margin-bottom: 30px;
+}
+
+.carImagetxt {}
+
+.carImagetxt h2 {
+  padding: 0px;
+  color: white;
+  margin-left: 35px;
+}
+
+.carImagetxt h1 {
+  padding: 40px;
+  padding-bottom: 10px;
+  color: #185ADB;
+}
+
+.carImagetxt p {
+  padding: 5px;
+  line-height: 30px;
+  color: #185ADB;
+  margin-left: 35px;
+}
+
+.carjoinBtn {
+  background-image: -webkit-linear-gradient(top, #3DF68C, #0F3AC5);
+  padding: 12px;
+  margin-left: 35px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  color: #ffffff;
+}
+
+.Car-pageImage {
+  box-shadow: 1px 1px 1px 1px rgba(white, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+#Car-container {}
+
+.CarHatchback {
+  float: left;
+  width: 31%;
+  height: 170px;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 0px;
+  margin-bottom: 20px;
+  box-shadow: 1px;
+  background-color: white;
+  color: black;
+
+}
+
+.CarHatchback h1 {
+  font-size: 35px;
+  margin-top: 35px;
+}
+
+.CarHatchback p {
+  font-size: 15px;
+}
+
+.CarHatchback h2 {
+  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 124px;
+}
+
+.CarHatchback h3 {
+  font-size: 35px;
+  text-decoration: line-through;
+  float: right;
+margin-right: 24px;
+}
+
+#Car-BottomContainer {}
+
+.SportCar {
+  float: left;
+  width: 31%;
+  height: 170px;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 0px;
+  margin-bottom: 20px;
+  box-shadow: 1px;
+  background-color: white;
+  color: black;
+}
+
+.SportCar h1 {
+  font-size: 35px;
+  margin-top: 35px;
+
+}
+
+.SportCar p {
+  font-size: 15px;
+}
+
+.SportCar h2 {
+  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 140px;
+
+}
+
+.SportCar h3 {
+  font-size: 35px;
+  text-decoration: line-through;
+  float: right;
+  margin-right: 24px;
+
+}
+/**************** End of Car Page ***********************/
+/**************** Start in Contact Page ***********************/
+#ContactBar {}
+
+.contact-txt {
+  background-color: white;
+  margin-top: 80px;
+  padding: 40px;
+}
+
+.contact-txt h1 {
+  margin-left: 120px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.contact-txt a {
+  float: right;
+  font-size: 25px;
+  margin-right: 20px;
+  color: red;
+}
+
+.contact-txt p {
+  width: 27%;
+  line-height: 22px;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+  text-align: left;
+  color: #50CB93;
+  margin-left: 55px;
+}
+
+.Contact-Me {
+  background-color: #7FC8A9;
+  padding: 60px;
+}
+
+.Contact-Me p {
+  letter-spacing: 1.5px;
+  line-height: 30px;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.Contact-Me a {
+  color: white;
+  margin-left: 40px;
+}
+
+.Contact-Me a:hover {
+  color: red;
+}
+
+.MessageBox {
+  float: right;
+  margin-right: 150px;
+  margin-top: 15px;
+  width: 30%;
+  height: 350px;
+  background-color: white;
+  box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%), 0 8px 24px 0 rgb(0 0 0 / 22%);
+}
+
+.MessageBox h2 {
+  font-weight: bold;
+  text-align: center;
+  color: #7FC8A9;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.Contact-name {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 22px;
+  border: #7FC8A9 solid 1px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.Contact-email {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 22px;
+  border: #7FC8A9 solid 1px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.Contact-no {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 22px;
+  border: #7FC8A9 solid 1px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.Contact-area {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 22px;
+  border: #7FC8A9 solid 1px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.Contact-btn {
+  width: 82%;
+  cursor: pointer;
+  margin-left: 10%;
+  font-size: 22px;
+  border: #7FC8A9 solid 1px;
+  font-weight: 100;
+  background-image: -webkit-linear-gradient(top, #3DF68C, #0F3AC5);
+}
+
+/**************** End in Contact Page ***********************/
+/**************** start in sign up page ***********************/
+#Signup-container {
+  background-color: #C6B4CE;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.SignupBox {
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 31%;
+  width: 38%;
+  height: 450px;
+  box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%), 0 8px 24px 0 rgb(0 0 0 / 22%);
+}
+
+.SignupBox ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.SignupBox ul li {
+  display: inline;
+}
+
+.SignupBnt {
+  width: 45%;
+  cursor: pointer;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 15px;
+  border: none;
+  padding: 10px;
+  background-color: #E8F6EF;
+}
+
+.SignupBnt:hover {
+  background-color: white;
+  color: #DA0037;
+  border: solid 1px;
+}
+
+.loginBnt {
+  width: 45%;
+  cursor: pointer;
+  font-size: 30px;
+  border: none;
+  padding: 10px;
+  background-color: #E8F6EF;
+}
+
+.loginBnt:hover {
+  background-color: white;
+  color: #DA0037;
+  border: solid 1px;
+}
+
+.Signup-Name label {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-bottom: 35px;
+}
+
+.Signup-text {
+  font-size: 28px;
+  width: 65%;
+  margin-left: 10px;
+  border: none;
+  border-bottom: black solid 1px;
+  margin-bottom: 35px;
+}
+
+.Signup-Email label {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-bottom: 35px;
+}
+
+.SignupId {
+  font-size: 28px;
+  width: 66%;
+  margin-left: 10px;
+  border: none;
+  border-bottom: black solid 1px;
+  margin-bottom: 35px;
+}
+
+.Signup-psd label {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-bottom: 35px;
+}
+
+.Signup-Password {
+  font-size: 28px;
+  width: 54%;
+  margin-left: 10px;
+  border: none;
+  border-bottom: black solid 1px;
+  margin-bottom: 35px;
+}
+
+.SignAccount {
+  float: right;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 10px;
+  margin-right: 25px;
+  background-color: #B2B1B9;
+  border: none;
+}
+
+.SignAccount:hover {
+  background-color: white;
+  border: red solid 1px;
+  color: red;
+}
+
+/************************ End of Sign up  page *******************************/
+/*************************** Start of  login  page ***************************/
+.login-container {
+  background-color: #C6B4CE;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.loginBox {
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 31%;
+  width: 38%;
+  height: 450px;
+  box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%), 0 8px 24px 0 rgb(0 0 0 / 22%);
+}
+
+.loginBox ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.loginBox ul li {
+  display: inline;
+}
+
+.SignBnt {
+  width: 45%;
+  cursor: pointer;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 15px;
+  border: none;
+  padding: 10px;
+  background-color: #E8F6EF;
+}
+
+.SignBnt:hover {
+  background-color: white;
+  color: #DA0037;
+  border: solid 1px;
+}
+
+.logBnt {
+  width: 45%;
+  cursor: pointer;
+  font-size: 30px;
+  border: none;
+  padding: 10px;
+  background-color: #E8F6EF;
+}
+
+.logBnt:hover {
+  background-color: white;
+  color: #DA0037;
+  border: solid 1px;
+}
+
+.login-Email label {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-bottom: 35px;
+}
+
+.loginId {
+  font-size: 28px;
+  width: 66%;
+  margin-left: 10px;
+  border: none;
+  border-bottom: black solid 1px;
+  margin-bottom: 35px;
+}
+
+.login-psd label {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-bottom: 35px;
+}
+
+.login-Password {
+  font-size: 28px;
+  width: 54%;
+  margin-left: 10px;
+  border: none;
+  border-bottom: black solid 1px;
+  margin-bottom: 35px;
+}
+
+.login-psd p {
+  margin-left: 25px;
+}
+
+.login-psd a {
+  font-size: 15px;
+  float: right;
+  margin-right: 30px;
+  color: #185ADB;
+}
+
+.login-psd a:hover {
+  color: red;
+}
+
+.btn-login {
+  margin-top: 25px;
+  cursor: pointer;
+  margin-right: 30px;
+  float: right;
+  padding: 10px;
+  font-size: 20px;
+  width: 35%;
+  background-color: #E8F6EF;
+  border: none;
+}
+
+.btn-login:hover {
+  background-color: white;
+  color: red;
+  border: red solid 1px;
+}
+
+/************************ End of login  page *******************************/
+#Daily-payment {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.Daily-container {
+  background-color: white;
+  width: 35%;
+  height: 400px;
+  margin-top: 50px;
+  box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%), 0 8px 24px 0 rgb(0 0 0 / 22%);
+}
+
+.Daily-container ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.Daily-container ul li {
+  display: inline;
+}
+
+.Daily-btn {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  width: 44%;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 10px;
+  border: none;
+}
+
+.Month-btn {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  width: 44%;
+  padding: 10px;
+  background-color: #AFB9C8;
+  border: none;
+}
+
+.Daily-container h1 {
+  text-align: center;
+  color: red;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.Daily-container p {
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+
+.Daily-container h3 {
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.Daily-citylist label {
+  margin: 0px 5px 10px 25px;
+}
+
+.Daily-cityName {
+  font-size: 15px;
+  width: 80%;
+  border: none;
+  border-bottom: black solid 1px;
+  margin-bottom: 10px;
+}
+
+.Daily-cityName:focus {
+  border: none !important;
+}
+
+.daily-date {
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.daily-date label {
+  margin-left: 22px;
+}
+
+.StartDate {
+  width: 35%;
+  font-size: 15px;
+  margin-right: 20px;
+  padding: 5px;
+  border: #DDDDDD solid 1px
+}
+
+.EndDate {
+  width: 35%;
+  font-size: 15px;
+  padding: 5px;
+  border: #DDDDDD solid 1px
+}
+
+.DailySearch {
+  margin-top: 30px;
+  margin-left: 25%;
+  cursor: pointer;
+  font-size: 25px;
+  width: 44%;
+  padding: 10px;
+  background-image: -webkit-linear-gradient(top, #97DEDC, #1ED03B);
+  border: none;
+}
+
+.Daily-Image {
+  background: url(../carpage.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 350px;
+}
